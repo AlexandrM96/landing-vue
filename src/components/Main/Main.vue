@@ -1,17 +1,18 @@
 <template>
   <main class="main">
    <Header />
-   this is main!!!
+   <ProductInformation />
   </main>
 </template>
 
 <script>
 import Header from '../Header/Header'
-
+import ProductInformation from '../ProductInformation/ProductInformation'
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    ProductInformation
   }
 }
 </script>
