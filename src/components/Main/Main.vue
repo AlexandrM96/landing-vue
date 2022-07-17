@@ -1,18 +1,21 @@
 <template>
   <main class="main">
-   <Header />
-   <ProductInformation />
+    <Header />
+    <ProductInformation />
+    <ProductDescription />
   </main>
 </template>
 
 <script>
-import Header from '../Header/Header'
-import ProductInformation from '../ProductInformation/ProductInformation'
+import Header from '../Header/Header';
+import ProductInformation from '../ProductInformation/ProductInformation';
+import ProductDescription from '../ProductDescription/ProductDescription';
 export default {
   name: 'App',
   components: {
     Header,
-    ProductInformation
+    ProductInformation,
+    ProductDescription
   }
 }
 </script>
@@ -22,14 +25,17 @@ export default {
 h3 {
   margin: 40px 0 0;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   display: inline-block;
   margin: 0 10px;
 }
+
 a {
   color: #42b983;
 }
